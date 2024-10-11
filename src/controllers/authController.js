@@ -1,6 +1,6 @@
 const bcrypt = require("bcrypt");
 const { hashedPassword } = require("../helpers/hashPassword");
-const { insertSignUpQuery, selectQuery } = require("../constants/queries");
+const { insertSignUpQuery, selectQuery } = require("../../constants/queries");
 const jwt = require("jsonwebtoken");
 const { queryRunner } = require("../helpers/queryRunner");
 
